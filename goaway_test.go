@@ -5,7 +5,7 @@ import (
 )
 
 func TestNoDuplicatesBetweenProfanitiesAndFalseFalsePositives(t *testing.T) {
-	for _, profanity := range profanities {
+	for _, profanity := range Profanities {
 		for _, falseFalsePositive := range falseNegatives {
 			if profanity == falseFalsePositive {
 				t.Errorf("'%s' is already in 'falseNegatives', there's no need to have it in 'profanities' too", profanity)

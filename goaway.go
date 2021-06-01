@@ -73,7 +73,7 @@ func (g *ProfanityDetector) IsProfane(s string) bool {
 		s = strings.Replace(s, word, "", -1)
 	}
 	// Check for profanities
-	for _, word := range profanities {
+	for _, word := range Profanities {
 		if match := strings.Contains(s, word); match {
 			return true
 		}
