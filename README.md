@@ -2,20 +2,16 @@
 
 # go-away
 
-![build](https://github.com/TwinProduction/go-away/workflows/build/badge.svg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/TwinProduction/go-away)](https://goreportcard.com/report/github.com/TwinProduction/go-away)
-[![codecov](https://codecov.io/gh/TwinProduction/go-away/branch/master/graph/badge.svg)](https://codecov.io/gh/TwinProduction/go-away)
-[![Go Reference](https://pkg.go.dev/badge/github.com/TwinProduction/go-away.svg)](https://pkg.go.dev/github.com/TwinProduction/go-away)
-
 go-away is a stand-alone, lightweight library for detecting profanities in Go.
 
 This library must remain **extremely** easy to use. Its original intent of not adding overhead will always remain.
 
+> :warning: **Trigger / Content Warning: Contains profanities and slurs. The purpose of this repo is to filter out offensive language to avoid offending users, but to do this, it contains offensive language.**
 
 ## Installation
 
 ```
-go get -u github.com/TwinProduction/go-away
+go get -u github.com/zapatacomputing/go-away
 ```
 
 
@@ -23,7 +19,7 @@ go get -u github.com/TwinProduction/go-away
 
 ```go
 import (
-	"github.com/TwinProduction/go-away"
+	"github.com/zapatacomputing/go-away"
 )
 
 goaway.IsProfane("fuck this shit")         // returns true
