@@ -6,7 +6,8 @@ go-away is a stand-alone, lightweight library for detecting profanities in Go.
 
 This library must remain **extremely** easy to use. Its original intent of not adding overhead will always remain.
 
-> :warning: **Trigger / Content Warning: Contains profanities and slurs. The purpose of this repo is to filter out offensive language to avoid offending users, but to do this, it contains offensive language.**
+| :warning: **Trigger / Content Warning: Contains profanities and slurs. The purpose of this repo is to filter out offensive language to avoid offending users, but to do this, it contains offensive language.** |
+| :--- |
 
 ## Installation
 
