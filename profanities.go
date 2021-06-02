@@ -90,4 +90,5 @@ var Profanities = []string{
 	"wank",
 	"whore",
 	"1488",
+	"8814",
 }
